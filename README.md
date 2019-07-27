@@ -4,12 +4,11 @@ $ apt update\
 $ apt upgrade\
 $ apt install git\
 $ apt install python2\
-$ pip2 install --update pip\
-$ pip2 install requests\
+$ pip2 install requests\  ito dapat may s ang Request
 $ pip2 install mechanize\
 $ git clone https://github.com/CipherChris/crypton \
 $ termux-setup-storage (Tapos click allow)\
-$ cd crypto\
+$ cd crypton\
 $ python2 expose.py
 
 Then type *'help'*\
