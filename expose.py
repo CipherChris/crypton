@@ -1,5 +1,5 @@
 # encoding=utf8
-# Author: Marx Chryz
+# Author: Crypton
 import requests, json, os, re, sys, mechanize, urllib, hashlib
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -19,13 +19,13 @@ def about():
                     INFORMATION
  ------------------------------------------------------
 
-    \033[1;32;40mAuthor     \033[37mM412x
+    \033[1;32;40mAuthor     \033[37mCrypton
     \033[1;32;40mName       \033[37mCryptoExpose
     \033[1;32;40mMade for   \033[37mCryptoExpose
     \033[1;32;40mVersion    \033[37mv 1.0
     \033[1;32;40mDate       \033[37m05/19/2019
-    \033[1;32;40mTeam       \033[37mWala, paampon po
-    \033[1;32;40mDiscord    \033[37mM412x#9827
+    \033[1;32;40mTeam       \033[37mCrypton
+    \033[1;32;40mDiscord    \033[37mCryptonPennywise#2914
 
 
 
