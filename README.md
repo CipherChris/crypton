@@ -7,7 +7,7 @@ $ apt install python2\
 $ pip2 install --update pip\
 $ pip2 install requests\
 $ pip2 install mechanize\
-$ git clone https://github.com/marxchryz/crypto \
+$ git clone https://github.com/CipherChris/crypton \
 $ termux-setup-storage (Tapos click allow)\
 $ cd crypto\
 $ python2 expose.py
